@@ -226,6 +226,10 @@ configs:
     ## Generic parameters
     # -- Open-Telemetry collector address: (e.g. "otel-collector:4317")
     otlp.address: ''
+    # -- Open-Telemetry collector insecure: (default: true)
+    otlp.insecure: true
+    # -- Open-Telemetry collector headers: (e.g. "key1=value1,key2=value2")
+    otlp.headers: ''
 
     ## Controller Properties
     # -- Number of application status processors
